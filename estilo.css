@@ -1,0 +1,28 @@
+body {
+    background-color: #ac79d6;
+    color: #670d7b;
+    display: grid;
+    grid-template-columns: 400px;
+    grid-auto-rows: 50px;
+    grid-gap: 50px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+button {
+    background-color: #e7d0e6;
+    color: #8736ca;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer; 
+}
+.container {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-auto-rows: 50px;
+    grid-gap: 50px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    }

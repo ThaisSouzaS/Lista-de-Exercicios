@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercício 05 </title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="exercicio5.css">
+    <style>
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exercício 05</h1>
+        
+        <h3>Entre com a largura</h3>
+        <input type="number" id="largura" placeholder="Digite a largura">
+ 
+        <h3>Entre com o comprimento</h3>
+        <input type="number" id="comprimento" placeholder="Digite o comprimento">
+ 
+        <button onclick="calcularmetrosquadrados()">Calcular</button>
+    </div>
+ 
+    <script>
+        function calcularmetrosquadrados() {
+            let largura = parseFloat(document.getElementById("largura").value);
+            let comprimento = parseFloat(document.getElementById("comprimento").value);
+            let calculo = largura * comprimento;
+            let preco = calculo * 36;
+            alert(`O preço total é: R$ ${preco.toFixed(2)}`);
+        }
+    </script>
+</body>
+</html>
